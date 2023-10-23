@@ -4,7 +4,7 @@ footer {
     height: 15%;
     /* position: absolute; */
     bottom: 0;
-    color: azure;
+    color: rgb(212, 247, 17);
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ footer {
 
 img{
     padding-top: 1%;
-    width: 5%;
+    width: 7%;
 }
 
 h2{

@@ -34,7 +34,11 @@ function Equipe({titulo, listaP}){
             {listaP.map((p) => 
                   <div className='main'>
                   <img className="img-exibe-perfil" src={p.imagem} alt={p.nome}/>
-                  <h1>Nome:{p.nome}</h1>
+                  {
+                    p.nome===undefined 
+                    ?<h1>sem nome!</h1>
+                    :<h1>nome : {p.nome}</h1>
+                  }
                   {cat(p.categoria,p.nome)}
                {/* { p.categoria==="professor" ? <div className='prof'><p>professor</p></div>:""}
                   { p.categoria==="aluno" ?<div className='aluno'>   <p>aluno</p></div> :""} */}
